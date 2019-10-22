@@ -53,7 +53,7 @@ local function crearDeshechos(x, y, velocidad, img, inclinacion)
 	nuevoDeshecho:applyTorque( 0.2 )
 end
 
--- Movimiento de Satelite o dron
+-- Movimiento de Satelite o dron es Satelite!!
 local function moverSatelite(event)
 	local satelite = event.target
 	local fase = event.phase
